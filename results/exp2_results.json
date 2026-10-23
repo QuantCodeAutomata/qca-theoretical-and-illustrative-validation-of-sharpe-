@@ -1,0 +1,172 @@
+{
+  "n_assets": 20,
+  "assets": [
+    "ADANIENT",
+    "ASIANPAINT",
+    "AXISBANK",
+    "BHARTIARTL",
+    "HCLTECH",
+    "HDFCBANK",
+    "HINDUNILVR",
+    "ICICIBANK",
+    "INFY",
+    "ITC",
+    "KOTAKBANK",
+    "LT",
+    "MARUTI",
+    "NTPC",
+    "RELIANCE",
+    "SBIN",
+    "SUNPHARMA",
+    "TCS",
+    "TITAN",
+    "ULTRACEMCO"
+  ],
+  "n_hist_days": 4437,
+  "n_eval_days": 494,
+  "lambda_values": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "metrics": [
+    {
+      "lambda": 0.0,
+      "gross_sharpe": 0.043,
+      "net_sharpe": 0.0043,
+      "final_wealth": 0.9837,
+      "avg_daily_turnover": 0.010306,
+      "sortino": 0.0044,
+      "net_volatility": 0.134,
+      "max_drawdown": -0.252
+    },
+    {
+      "lambda": 0.1,
+      "gross_sharpe": 0.1905,
+      "net_sharpe": 0.1509,
+      "final_wealth": 1.0223,
+      "avg_daily_turnover": 0.010359,
+      "sortino": 0.1534,
+      "net_volatility": 0.1319,
+      "max_drawdown": -0.2411
+    },
+    {
+      "lambda": 0.2,
+      "gross_sharpe": 0.6007,
+      "net_sharpe": 0.5602,
+      "final_wealth": 1.1345,
+      "avg_daily_turnover": 0.010456,
+      "sortino": 0.562,
+      "net_volatility": 0.13,
+      "max_drawdown": -0.2202
+    },
+    {
+      "lambda": 0.3,
+      "gross_sharpe": 1.0289,
+      "net_sharpe": 0.9888,
+      "final_wealth": 1.2673,
+      "avg_daily_turnover": 0.010394,
+      "sortino": 1.0059,
+      "net_volatility": 0.1309,
+      "max_drawdown": -0.1959
+    },
+    {
+      "lambda": 0.4,
+      "gross_sharpe": 1.4402,
+      "net_sharpe": 1.4017,
+      "final_wealth": 1.4182,
+      "avg_daily_turnover": 0.010131,
+      "sortino": 1.4546,
+      "net_volatility": 0.1335,
+      "max_drawdown": -0.1704
+    },
+    {
+      "lambda": 0.5,
+      "gross_sharpe": 1.8383,
+      "net_sharpe": 1.8028,
+      "final_wealth": 1.6077,
+      "avg_daily_turnover": 0.009698,
+      "sortino": 1.9,
+      "net_volatility": 0.1398,
+      "max_drawdown": -0.14
+    },
+    {
+      "lambda": 0.6,
+      "gross_sharpe": 1.9659,
+      "net_sharpe": 1.9321,
+      "final_wealth": 1.6903,
+      "avg_daily_turnover": 0.00944,
+      "sortino": 2.0167,
+      "net_volatility": 0.144,
+      "max_drawdown": -0.1315
+    },
+    {
+      "lambda": 0.7,
+      "gross_sharpe": 2.0053,
+      "net_sharpe": 1.973,
+      "final_wealth": 1.7363,
+      "avg_daily_turnover": 0.009245,
+      "sortino": 2.0518,
+      "net_volatility": 0.1483,
+      "max_drawdown": -0.1283
+    },
+    {
+      "lambda": 0.8,
+      "gross_sharpe": 2.0218,
+      "net_sharpe": 1.9907,
+      "final_wealth": 1.7683,
+      "avg_daily_turnover": 0.009074,
+      "sortino": 2.0771,
+      "net_volatility": 0.1519,
+      "max_drawdown": -0.1312
+    },
+    {
+      "lambda": 0.9,
+      "gross_sharpe": 2.0262,
+      "net_sharpe": 1.9961,
+      "final_wealth": 1.7877,
+      "avg_daily_turnover": 0.008944,
+      "sortino": 2.0751,
+      "net_volatility": 0.1545,
+      "max_drawdown": -0.1334
+    },
+    {
+      "lambda": 1.0,
+      "gross_sharpe": 2.0268,
+      "net_sharpe": 1.9977,
+      "final_wealth": 1.8066,
+      "avg_daily_turnover": 0.008794,
+      "sortino": 2.0879,
+      "net_volatility": 0.1573,
+      "max_drawdown": -0.1356
+    }
+  ],
+  "paper_anchor_points": {
+    "lambda_0": {
+      "gross_sharpe": 0.05,
+      "net_sharpe": 0.019,
+      "final_wealth": 0.988,
+      "avg_daily_turnover": 0.0081
+    },
+    "lambda_0.5": {
+      "gross_sharpe": 1.801,
+      "net_sharpe": 1.774,
+      "final_wealth": 1.609,
+      "avg_daily_turnover": 0.0075
+    },
+    "lambda_1.0": {
+      "gross_sharpe": 1.957,
+      "net_sharpe": 1.936,
+      "final_wealth": 1.796,
+      "avg_daily_turnover": 0.0066
+    }
+  }
+}

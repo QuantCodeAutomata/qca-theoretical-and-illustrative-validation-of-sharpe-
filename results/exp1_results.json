@@ -1,0 +1,60 @@
+{
+  "dataset_1_(4_stocks,_concave)": {
+    "assets": [
+      "BHARTIARTL",
+      "KOTAKBANK",
+      "MARUTI",
+      "SBIN"
+    ],
+    "n_estimation_obs": 746,
+    "n_evaluation_obs": 245,
+    "A": 0.01481,
+    "B": -0.002315,
+    "C": 0.007123,
+    "A_plus_3B": 0.007867,
+    "concavity_condition_holds": true,
+    "S_star": 0.131547,
+    "S_at_lambda_0": 0.102674,
+    "S_at_lambda_0.5": 0.124698,
+    "S_at_lambda_1": 0.131541,
+    "is_monotone": true,
+    "cos_theta_at_lambda_0": 0.780549
+  },
+  "dataset_2_(20_stocks,_inflection)": {
+    "assets": [
+      "ADANIENT",
+      "ASIANPAINT",
+      "AXISBANK",
+      "BHARTIARTL",
+      "HCLTECH",
+      "HDFCBANK",
+      "HINDUNILVR",
+      "ICICIBANK",
+      "INFY",
+      "ITC",
+      "KOTAKBANK",
+      "LT",
+      "MARUTI",
+      "NTPC",
+      "RELIANCE",
+      "SBIN",
+      "SUNPHARMA",
+      "TCS",
+      "TITAN",
+      "ULTRACEMCO"
+    ],
+    "n_estimation_obs": 3696,
+    "n_evaluation_obs": 1235,
+    "A": 0.020944,
+    "B": -0.01632,
+    "C": 0.031509,
+    "A_plus_3B": -0.028016,
+    "concavity_condition_holds": false,
+    "S_star": 0.140759,
+    "S_at_lambda_0": 0.031955,
+    "S_at_lambda_0.5": 0.109279,
+    "S_at_lambda_1": 0.140756,
+    "is_monotone": true,
+    "cos_theta_at_lambda_0": 0.227006
+  }
+}
